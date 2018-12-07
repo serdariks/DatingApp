@@ -1,0 +1,6 @@
+-add new migration--
+dotnet ef migrations add InitialCreate
+-apply migration---
+dotnet ef database update
+--remove the last migration
+dotnet ef migrations remove
